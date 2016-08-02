@@ -1,3 +1,3 @@
 #MentorMate Lamp Intern
 
-In this repository I will be uploading some of my (more memorable) work while being an intern at MentorMate.
+Today (02.08.2016) I drew figures.
