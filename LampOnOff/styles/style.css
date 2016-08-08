@@ -1,0 +1,73 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color:rgb(47,49,61);
+}
+
+#lamp{
+    position:absolute;
+    top:10%;
+    left:50%;
+    margin-left:auto;
+}
+
+.vertical{
+    border-color:rgb(15, 16, 17);
+    background-color:rgb(15, 16, 17);
+}
+
+.initial{
+    width: 2px;
+    height: 125px; 
+    margin-left:-1px;
+}
+
+.thinner{
+    width:6px;
+    height:15px;
+    margin-left:-3px;
+}
+
+.thin{
+    height:25px;
+    width:12px;
+    margin-left:-6px;
+}
+
+.bulb{
+    width:50px;
+    height:50px;
+    margin-left:-25px;
+    border:1px solid rgb(61, 64, 73);
+    border-radius:50%;
+    cursor:pointer;
+}
+
+.shine{
+    background: #888;
+    background: -webkit-linear-gradient(yellow, orange);
+    background: -o-linear-gradient(yellow, orange);
+    background: -moz-linear-gradient(yellow, orange);
+    background: linear-gradient(yellow, orange);
+    box-shadow: 0px 0px 100px 40px #888;
+}
+
+.bulb-initial{
+    width:4px;
+    height:10px;
+    margin-left:23px;
+    color:rgb(61, 64, 73);
+    background-color:rgb(61, 64, 73);
+    border:rgb(61, 64, 73);
+}
+
+.bulb-bulb{
+    width:20px;
+    height:20px;
+    border:3px solid rgb(61, 64, 73);
+    border-radius:50%;
+    margin-left:12px;
+}
