@@ -1,0 +1,15 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+canvas{
+    position:fixed;
+    right:0;
+    left:0;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:#F8F8F8; 
+    border:1px solid #333;
+    border-radius:10px;
+}
