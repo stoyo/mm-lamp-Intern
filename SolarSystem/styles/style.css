@@ -1,0 +1,246 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-image:url('../images/background.png');
+}
+
+.orbit{
+    position:absolute;
+    top:50%;
+    left:50%;
+    border-radius:50%;
+    border:2px solid #333;
+}
+
+.pluto{
+    margin-left:-410px;
+    margin-top:-410px;
+    width:820px;
+    height:820px;
+}
+
+.neptune{
+    margin-left:-370px;
+    margin-top:-370px;
+    width:740px;
+    height:740px;
+}
+.uranus{
+    margin-left:-330px;
+    margin-top:-330px;
+    width:660px;
+    height:660px;
+}
+
+.saturn{
+    margin-left:-290px;
+    margin-top:-290px;
+    width:580px;
+    height:580px;
+}
+
+.jupiter{
+    margin-left:-250px;
+    margin-top:-250px;
+    width:500px;
+    height:500px;
+}
+
+.mars{
+    margin-left:-210px;
+    margin-top:-210px;
+    width:420px;
+    height:420px;
+}
+
+.earth{
+    margin-left:-170px;
+    margin-top:-170px;
+    width:340px;
+    height:340px;
+}
+
+.earth-orbit{
+    position:relative;
+    width:20px;
+    height:20px;
+    margin-left:-40px;
+    background: linear-gradient(#fff, #000);
+    border-radius:50%;
+}
+
+.venus{
+    margin-left:-130px;
+    margin-top:-130px;
+    width:260px;
+    height:260px;
+}
+
+.mercury{
+    margin-left:-90px;
+    margin-top:-90px;
+    width:180px;
+    height:180px;
+}
+
+.sun{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-50px;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    background-color:#ffffb2;
+    text-align: center;
+}
+
+.sun::before{
+    line-height:100px;
+    content:"I am the sun";
+}
+
+.planet{
+    text-align: center;
+    line-height:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-20px;
+    margin-top:-20px;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    z-index:2;
+}
+
+.pl-pluto{
+    -webkit-animation: pluto 10s linear infinite;
+    background:brown;
+}
+
+.pl-pluto::before{
+    content: "P";
+}
+
+.pl-neptune{
+    -webkit-animation: neptune 9s linear infinite;
+    background:blue;
+}
+
+.pl-neptune::before{
+    content: "N";
+}
+
+.pl-uranus{
+    -webkit-animation: uranus 8s linear infinite;
+    background:blue;
+}
+
+.pl-uranus::before{
+    content: "U";
+}
+
+.pl-saturn{
+    -webkit-animation: saturn 7s linear infinite;
+    background:gold;
+}
+
+.pl-saturn::before{
+    content: "S";
+}
+
+.pl-jupiter{
+    -webkit-animation: jupiter 6s linear infinite;
+    background:orange;
+}
+
+.pl-jupiter::before{
+    content: "J";
+}
+
+.pl-mars{
+    -webkit-animation: mars 5s linear infinite;
+    background:brown;
+}
+
+.pl-mars::before{
+    content: "M";
+}
+
+.pl-earth{
+    -webkit-animation: earth 4s linear infinite;
+    background:green;
+    z-index: 3;
+}
+
+.pl-earth::before{
+    content:"E";
+}
+
+.pl-venus{
+    -webkit-animation: venus 3s linear infinite;
+    background:yellow;
+}
+
+.pl-venus::before{
+    content:"V";
+}
+
+.pl-mercury{
+    -webkit-animation: mercury 2s linear infinite;
+    background:gray;
+}
+
+.pl-mercury::before{
+    content:"M";
+}
+
+@-webkit-keyframes pluto {
+    from { -webkit-transform: rotate(0deg) translateX(410px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(410px) rotate(-360deg); }
+}
+
+@-webkit-keyframes neptune {
+    from { -webkit-transform: rotate(0deg) translateX(370px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(370px) rotate(-360deg); }
+}
+
+@-webkit-keyframes uranus {
+    from { -webkit-transform: rotate(0deg) translateX(330px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(330px) rotate(-360deg); }
+}
+
+@-webkit-keyframes saturn {
+    from { -webkit-transform: rotate(0deg) translateX(290px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(290px) rotate(-360deg); }
+}
+
+@-webkit-keyframes jupiter {
+    from { -webkit-transform: rotate(0deg) translateX(250px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(250px) rotate(-360deg); }
+}
+
+@-webkit-keyframes mars {
+    from { -webkit-transform: rotate(0deg) translateX(210px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(210px) rotate(-360deg); }
+}
+
+@-webkit-keyframes earth {
+    from { -webkit-transform: rotate(0deg) translateX(170px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(170px) rotate(-360deg); }
+}
+
+@-webkit-keyframes venus {
+    from { -webkit-transform: rotate(0deg) translateX(130px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(130px) rotate(-360deg); }
+}
+
+@-webkit-keyframes mercury {
+    from { -webkit-transform: rotate(0deg) translateX(90px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(90px) rotate(-360deg); }
+}
