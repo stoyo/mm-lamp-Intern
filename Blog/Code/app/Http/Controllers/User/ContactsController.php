@@ -32,7 +32,7 @@ class ContactsController extends Controller {
             $m->to('genchev_stoyan@abv.bg', "Stoyan Genchev")->subject($name.'just sent you an email.');
         });
         
-        return;
+        return redirect()->back()-with('info', 'Successfully sent email. Thank you!');
     }
 
 }
